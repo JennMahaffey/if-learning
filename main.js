@@ -10,6 +10,14 @@ function isItLong(str){
       return "That's a regular sized string!";
     }
   }
+  function isItShort(str){
+    if(str.length < 10){
+      return "That's a small string!";
+    }else{
+      return "That's not a small string!";
+    }
+  }
+}
 
 
 
