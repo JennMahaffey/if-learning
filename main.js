@@ -25,6 +25,13 @@ function isItLong(str){
     }else if(str.length < 10){
       return "That's a small string!";
     } 
+  }
+    function instructorHeight(str){
+      if(str === "Colin"){
+        return 62;
+      }else if(str === "Mesuara"){
+        return 69;
+      }else{ return "I don't know that instructor!"; }
 }
 
 
